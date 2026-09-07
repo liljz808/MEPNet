@@ -6,3 +6,11 @@ artifacts/
 output_dir/
 llama-recipes/src/llama_recipes/pycocoevalcap/meteor
 llama-recipes/src/llama_recipes/pycocoevalcap/tokenizer
+
+# Generated data, features, weights and raw datasets (not tracked in git)
+/Data/
+/cleaned_data/
+/CTRG_dataset/feature/
+/data_processing/weights/
+/data_processing/Pathological_Graph/
+/data_processing/Tissue_Lesion_Alignment/
