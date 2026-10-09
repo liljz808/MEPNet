@@ -1,5 +1,5 @@
 from .bleu.bleu import Bleu
-from .meteor import Meteor
+from pycocoevalcap.meteor.meteor import Meteor
 from .cider.cider import Cider
 from .rouge import Rouge
 

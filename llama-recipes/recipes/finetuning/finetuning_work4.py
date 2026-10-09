@@ -21,7 +21,7 @@ if __name__ == "__main__":
     version = "v15"
     for params in param_combinations:
         print(params)
-        dir_name = "/home/bjutcv/data/Yanzhaoshi/MRG_LLMs/llama/MEPNet/output_dir/" + f"{params[2]}/{model_name}/work_{version}_{str(params[0])}"
+        dir_name = "/root/data1/MEPNet/output_dir/" + f"{params[2]}/{model_name}/work_{version}_{str(params[0])}"
         if not os.path.exists(dir_name):
             os.makedirs(dir_name)
         scores = main(seed=params[0], batch_size_training=params[1], output_dir=dir_name)
