@@ -14,3 +14,6 @@ llama-recipes/src/llama_recipes/pycocoevalcap/tokenizer
 /data_processing/weights/
 /data_processing/Pathological_Graph/
 /data_processing/Tissue_Lesion_Alignment/
+
+# Local pretrained LLaMA weights for this project
+/pretrained_models/
